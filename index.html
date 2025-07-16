@@ -115,13 +115,44 @@
                         <li>border-box -> calculo de tamaño del elemento incluyendo el padding y el border</li>
                     </ul>
                 </section>
-
             </article>
-
 
             <article>
                 <h2>Box shadow</h2>
+                <p>La propiedad de sombra se creo para añadir efectos de sombra a nuestra caja.</p>
+                <p>En esencia lo que hace es crear un clon de la caja, respetando la forma de su box-model (alto, ancho, redondez)</p>
+                <p>La sintaxis de box-shadow se puede escribir de distintas formas segun lo que queramos conseguir.</p>
+                <p>Los valores que le podemos poner son:</p>
+                <ul>
+                <li>offset-x -> Desplazamiento en x (obligatorio)</li>
+                <li>offset-y -> Desplazamiento en y (obligatorio)</li>
+                <li>blur-radius -> Desenfoque de sombra</li>
+                <li>color -> El color de la sombra, si no lo especificamos lo heredará del elemento al que pertenece</li>
+                <li>inset -> Determina si la sombra será interior o exterior</li>
+                </ul>
+            </article>
 
+            <article>
+                <h2>Colapsado de margenes</h2>
+                <p>Los margenes verticales colapsan:</p> 
+                <p>Ocurre cuando los margenes verticales se encuentran se solapan </p>
+                <p>RECOMENDADO USAR MARGIN-BOTTOM EN LUGAR DE LOS OTROS MARGIN</p>
+            </article>
+            <article>
+                <h2>¿Cómo funciona CSS?</h2>
+                <p>Especificidad -> Establece como de especifico es un selector para saber que estilo aplicar.</p>
+                <p>El calculo se realiza con la siguiente formula:</p>
+                <ol>
+                <li>Etiquetas y pseudoElementos -> 001</li>
+                <li>Clases, atributos y pseudoclases -> 010</li>
+                <li>Ids -> 100</li>
+                <li>Estilo en linea -> 1000</li>
+                <li>!importante -> GANA A TODO Y NO SE USA NUNCA</li>
+                </ol>
+                <h3>Propiedades</h3>        
+                <p>Cascada -> Funciona siempre que la especificidad sobre el elemento sea la misma
+                Por eso lo mas recomendable es usar solo clases</p>
+                <p>Herencia -> Es la capacidad de algunos elementos de heredar algunas propiedades de sus elementos contenedores (padres, abuelos, etc.)</p>
             </article>
         </section>
         

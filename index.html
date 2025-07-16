@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lectures of HTML5</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div class="imagen">
+        <img src="images/holandes-1-1024x577.jpg" alt="Conejo gris">
+    </div>
+    <header class="header">
+        <nav class="menu">MENU</nav>
+    </header>
+    <main>
+        <h1 class="title">Lectures of HTML5</h1>
+        <section>
+            <article>
+                <h2>Box model</h2>
+                <section>
+                    <h3>Margin</h3>
+                        <p>
+                            Es la propiedad que nos permite generar espacio entre elementos. <br>
+                            Es un shorthand (propiedad abreviada) que controla los cuatro lados posibles a los que dar margenes.
+                        </p>
+                            <ul>
+                                <li>margin-top: margen superior</li>
+                                <li>margin-right: margen derecho</li>
+                                <li>margin-bottom: margen inferior</li>
+                                <li>margin-left: margen izquierdo</li>
+                            </ul>        
+                        <p>
+                            Admite hasta cuatro valores que van en el orden de las agujas del reloj.
+                        </p>
+                            <ul>
+                                <li>4 valores -> margin: top right bottom left;</li>
+                                <li>3 valores -> margin: top left/right bottom;</li>
+                                <li>2 valores -> margin: top/bottom left/right;</li>
+                                <li>1 valor -> margin: top/right/bottom/left;</li>
+                            </ul>
+                </section>
+                <section>
+                    <h3>Padding</h3>
+                        <p>
+                            Es la propiedad que nos permite generar espacio interno entre el borde y la caja <br>
+                            Es un shorhand (propiedad obreviada) que controla los 4 lados posibles a los que dar padding.
+                        </p>
+                        <ul>
+                            <li>padding-top: padding superior</li>
+                            <li>padding-right: padding derecho</li>
+                            <li>padding-bottom: padding inferior</li>
+                            <li>padding-left: padding izquierdo</li>
+                        </ul>                                
+                        <p>
+                            Admite hasta 4 valores que van en el orden de las agujas del reloj.
+                        </p>    
+                        <ul>
+                            <li>4 valores -> padding: top right bottom left;</li>
+                            <li>3 valores -> padding: top left/right bottom;</li>
+                            <li>2 valores -> padding: top/bottom left right;</li>
+                            <li>1 valor -> padding: top/right/bottom/left;</li>
+                        </ul>    
+                </section>
+                <section>
+                    <h3>IMPORTANTE</h3>
+                    <p>
+                        Si el objetivo es separar la caja de los elementos que la rodean se usa MARGIN. <br>
+                        Si el objetivo es aumentar el tamaño de la caja y preparar los bordes del contenido se usa PADDING. 
+                    </p>
+                    <pre>
+                        margin: 0;
+                        padding: 0;
+                    </pre>
+                    <p><i>Ejemplos de NO USAR, mala practica.</i></p>
+                </section>
+                <section>
+                    <h3>Border</h3>
+                        <p>
+                            Es la propiedad que nos permite modificar el borde de la caja. <br>
+                            Es un shorthand (propiedad abreviada) que agrupa 3 propiedades.
+                        </p>
+                        <ol>
+                            <li>border-width: ancho del borde</li>
+                                <ul>
+                                    <li>border-top-width</li>
+                                    <li>border-right-width</li>
+                                    <li>border-bottom-width</li>
+                                    <li>border-left-width</li>
+                                </ul>                                
+                            <li>border-style: estilo del borde</li>
+                                <ul>
+                                    <li>border-top-style</li>
+                                    <li>border-right-style</li>
+                                    <li>border-bottom-style</li>
+                                    <li>border-left-style</li>
+                                </ul>
+                            <li>border-color: color del borde</li>
+                                <ul>
+                                    <li>border-top-color</li>
+                                    <li>border-right-color</li>
+                                    <li>border-bottom-color</li>
+                                    <li>border-left-color</li>
+                                </ul>
+                        </ol>
+                </section>
+                <section>
+                    <h3>box-sizing</h3>
+                    <p>
+                        Es la propiedad que nos permite controlar el calculo que hace el navegador a la hora de modificar las propiedades content, padding y border. <br>
+                        los balores que podemos darle son:
+                    </p>
+                    <ul>
+                        <li>content-box -> valor por defecto</li>
+                        <li>border-box -> calculo de tamaño del elemento incluyendo el padding y el border</li>
+                    </ul>
+                </section>
+            </article>
+
+
+            <article>
+                <h2>Box shadow</h2>
+
+            </article>
+        </section>
+        
+    </main>
+</body>
+</html>
